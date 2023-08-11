@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dkjuDMXNywAq7i6n8PJaxCnAz+TiNksxdXehFfp/SUVOJIWb+GK0xTeXfegyNsnq9lpbKh3sulXXi2N97qGgBw==",
+  "dgSpecHash": "v7emztOqO2L1eWA+nbW7wtzOFw0y6F141frwz7yktYFpcuiglWpXnChgfQmPkiEK1ohjAsTIiDDtS/9CnGBpiQ==",
   "success": true,
-  "projectFilePath": "/home/arteN01-056/Documents/productos-tienda/productos-tienda.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\gio\\Documents\\PROGRAMACION\\Campus\\C sharp\\Persistencia_csharp\\productos-tienda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

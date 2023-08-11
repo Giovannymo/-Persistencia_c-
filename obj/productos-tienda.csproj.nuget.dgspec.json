@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-056/Documents/productos-tienda/productos-tienda.csproj": {}
+    "c:\\Users\\gio\\Documents\\PROGRAMACION\\Campus\\C sharp\\Persistencia_csharp\\productos-tienda.csproj": {}
   },
   "projects": {
-    "/home/arteN01-056/Documents/productos-tienda/productos-tienda.csproj": {
+    "c:\\Users\\gio\\Documents\\PROGRAMACION\\Campus\\C sharp\\Persistencia_csharp\\productos-tienda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-056/Documents/productos-tienda/productos-tienda.csproj",
+        "projectUniqueName": "c:\\Users\\gio\\Documents\\PROGRAMACION\\Campus\\C sharp\\Persistencia_csharp\\productos-tienda.csproj",
         "projectName": "productos-tienda",
-        "projectPath": "/home/arteN01-056/Documents/productos-tienda/productos-tienda.csproj",
-        "packagesPath": "/home/arteN01-056/.nuget/packages/",
-        "outputPath": "/home/arteN01-056/Documents/productos-tienda/obj/",
+        "projectPath": "c:\\Users\\gio\\Documents\\PROGRAMACION\\Campus\\C sharp\\Persistencia_csharp\\productos-tienda.csproj",
+        "packagesPath": "C:\\Users\\gio\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\gio\\Documents\\PROGRAMACION\\Campus\\C sharp\\Persistencia_csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arteN01-056/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
