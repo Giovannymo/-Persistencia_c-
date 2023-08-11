@@ -12,15 +12,27 @@ internal class Program
         do
         {
             option = menu.showMenu();
-            Product product = new Product();
+            Product product = new();
+            Category category= new();
 
             switch (option)
             {
                 case 1:
                     Product newProduct = product.CreateProduct();
                     Env.Products.Add(newProduct);
-                    string json = JsonConvert.SerializeObject(Env.Products, Formatting.Indented);
-                    File.WriteAllText(Env.FileName, json);
+             
+                    //string json = JsonConvert.SerializeObject(Env.Products, Formatting.Indented);
+                    //File.WriteAllText(Env.FileName, json);
+                    break;
+                case 3:
+                    category.ShowCategories(Env.Categories);
+                    break;
+                
+                case 4:
+                    product.ShowProducts(Env.Products);
+                    break;
+                case 6:
+                    Console.WriteLine("Cerramos el chuzo.");
                     break;
             }
 
@@ -28,7 +40,4 @@ internal class Program
         } while (option != 6);
     }
 
-    private class JsonConvert
-    {
-    }
 }
